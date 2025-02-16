@@ -31,5 +31,5 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker image
-      run: docker image push nickmeng/sample-app
+      run: docker image push nickmeng/sample-app:gha
 
