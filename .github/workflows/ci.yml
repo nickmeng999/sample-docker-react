@@ -19,7 +19,7 @@ jobs:
         node-version: 22
 
     - name: Build Docker image
-      run: docker build -t nickmeng/sample-app .
+      run: docker build -t nickmeng/sample-app:gha .
 
     - name: Run tests
       run: echo "Put your testing command here if you have"
